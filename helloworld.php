@@ -3,9 +3,10 @@ print "Hello, world!";
 print "\n";
 
 $d = new DateTime();
-$d->format('r');
-print "print \$d = $d";
 
+print "print \$d = ";
+print $d->format('r');
+//print "$d";
 
 
 
